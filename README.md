@@ -46,3 +46,32 @@ Cargill-Breakdown-System/
 ├── equipment.db         # SQLite Database (Auto-generated if missing)
 ├── requirements.txt     # Python dependencies
 └── README.md            # Documentation
+```
+## 🔧 Installation and Setup
+
+### 1.Clone the Repository
+Download the project files to your local machine
+```bash
+git clone [https://github.com/yourusername/cargill-breakdown-system.git](https://github.com/yourusername/cargill-breakdown-system.git)
+cd cargill-breakdown-system
+```
+### 2.Install Dependencies
+This project requires specific libararies for the log grid (`tksheet`) and Escel reporting (`xlsxwriter`)
+```bash
+pip install -r requirements.txt
+```
+### 3.Verify Database & Assets
+Ensure the following files are present in the root directory for the app to launch correctly:
+   * `equipment.db` (The SQLite database file)
+   * `icons8-login-30.png` (and other icon assets)
+### 4.Run the Application
+```bash
+python main.py
+```
+## 🤝 Contribution
+This project was a collaborative engineering effort designed to help in real-world industrial software 
+#### Core Team
+   * **[Omar Mohamed Farouk](https://www.linkedin.com/in/omar-amin-ejs/)**
+   * **[Ibrahim Talal](https://www.linkedin.com/in/ibrahim-talal/)**
+
+
